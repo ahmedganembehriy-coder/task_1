@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Doctor Appointment Form</title>
+    <link rel="stylesheet" href="css1.css">
+</head>
+<body>
+    <img src="img/Doctor.jpeg" class="Doctor">
+
+    <div class="right">
+        <h2 class="title">Doctor Appointment Form</h2>
+        <hr class="line">
+        <form>
+            <p>Appointment Date: <input type="date"></p>
+            <p>Appointment Time: <input type="time"></p>
+            <p>
+                Name: 
+                <input type="text" class="in" placeholder="First"> 
+                <input type="text" class="in" placeholder="Last">
+            </p>
+            <p>
+                Gender: 
+                Male <input type="radio" name="g"> 
+                Female <input type="radio" name="g">
+            </p>
+            <p>Phone: <input type="text" class="in" placeholder="####"></p>
+            <p>
+                Address: 
+                <input type="text" class="in" placeholder="city"> 
+                <input type="text" class="in" placeholder="state">
+            </p>
+            <p>
+                Your Query: <br>
+                <textarea class="txt"></textarea>
+            </p>
+            <p>
+                Appointment Type: <br>
+                <small>Select which appointment type(s) you require</small><br>
+                <input type="checkbox"> Cervix checkup <br>
+                <input type="checkbox"> Heart checkup <br>
+                <input type="checkbox"> Eye check-up <br>
+                <input type="checkbox"> Hearing Test
+            </p>
+            <input type="submit" value="Send" class="btn">
+        </form>
+    </div>
+
+</body>
+</html>
